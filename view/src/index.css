@@ -25,6 +25,9 @@
 .pieces--blue {
   background-color: aqua;
 }
+.pieces--focus {
+  outline: yellow solid 2px;
+}
 .broad {
   /* position: absolute;
   top: 40px;
