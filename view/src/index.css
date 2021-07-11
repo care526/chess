@@ -32,14 +32,20 @@
   /* position: absolute;
   top: 40px;
   left: 40px; */
-  width: 809px;
-  height: 910px;
+  width: 729px;
+  height: 820px;
   display: flex;
   flex-wrap: wrap;
 }
+.broad-red {
+  background-color: violet;
+}
+.broad-blue {
+  background-color: aqua;
+}
 .block {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-top: 1px solid #333;
   border-left: 1px solid #333;
 }
@@ -54,8 +60,8 @@
 .block:nth-of-type(4)::after {
   content: "";
   display: block;
-  width: 142px;
-  height: 142px;
+  width: 128px;
+  height: 128px;
   border-top: 1px solid #333;
   border-right: 1px solid #333;
   transform: rotate(45deg);
@@ -64,8 +70,8 @@
 .block:nth-of-type(6)::after {
   content: "";
   display: block;
-  width: 142px;
-  height: 142px;
+  width: 128px;
+  height: 128px;
   border-bottom: 1px solid #333;
   border-left: 1px solid #333;
   transform: rotate(45deg);
@@ -74,8 +80,8 @@
 .block:nth-of-type(60)::after {
   content: "";
   display: block;
-  width: 142px;
-  height: 142px;
+  width: 128px;
+  height: 128px;
   border-top: 1px solid #333;
   border-right: 1px solid #333;
   transform: rotate(45deg);
@@ -84,8 +90,8 @@
 .block:nth-of-type(62)::after {
   content: "";
   display: block;
-  width: 142px;
-  height: 142px;
+  width: 128px;
+  height: 128px;
   border-bottom: 1px solid #333;
   border-left: 1px solid #333;
   transform: rotate(45deg);
@@ -103,27 +109,27 @@
 }
 
 .block:nth-of-type(40) {
-  width: 107px;
+  width: 97px;
 }
 
 .block:nth-of-type(34)::after {
   content: "楚";
   padding: 0 20px;
   font-size: 60px;
-  line-height: 100px;
+  line-height: 90px;
 }
 .block:nth-of-type(35)::after {
   content: "河";
   padding: 0 20px;
   font-size: 60px;
-  line-height: 100px;
+  line-height: 90px;
 }
 .block:nth-of-type(38)::after {
   content: "界";
   display: block;
   padding: 0 20px;
   font-size: 60px;
-  line-height: 100px;
+  line-height: 90px;
   transform: rotate(180deg);
 }
 .block:nth-of-type(39)::after {
@@ -131,6 +137,6 @@
   display: block;
   padding: 0 20px;
   font-size: 60px;
-  line-height: 100px;
+  line-height: 90px;
   transform: rotate(180deg);
 }
